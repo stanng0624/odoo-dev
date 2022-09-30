@@ -24,7 +24,8 @@
                         </page>
                         <page string="Pharmacy" name="pharmacy">
                             <group>
-                               <field name="booking_date"/>
+                                <field name="booking_date"/>
+                                <field name="appointment_time"/>
                             </group>
                         </page>
                     </notebook>
