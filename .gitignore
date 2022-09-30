@@ -1,0 +1,4 @@
+# exclude official package
+odoo/
+
+!.gitignore
