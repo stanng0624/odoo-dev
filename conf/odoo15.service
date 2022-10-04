@@ -1,0 +1,16 @@
+[Unit]
+Description=Odoo15
+Requires=postgresql.service
+After=network.target postgresql.service
+
+[Service]
+Type=simple
+SyslogIdentifier=odoo15
+PermissionsStartOnly=true
+User=odoo15
+Group=odoo15
+ExecStart=/anaconda3/envs/odoo-dev/bin/python /home/stan/Applications/odoo/odoo-dev/15.0/odoo/odoo-bin -c co>
+StandardOutput=journal+console
+
+[Install]
+WantedBy=multi-user.target
