@@ -1,4 +1,8 @@
 # exclude official package
 odoo/
+filestore/*
+!filestore/README.md
+logs/*
+!logs/README.md
 
 !.gitignore
